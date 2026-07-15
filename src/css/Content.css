@@ -1,0 +1,85 @@
+.content{
+
+
+    width:70%;
+
+
+    padding:30px;
+
+
+    background:#eef5fb;
+
+
+    overflow-y:auto;
+
+
+}
+
+
+
+.weather-header{
+
+
+    background:white;
+
+
+    padding:20px;
+
+
+    border-radius:15px;
+
+
+    margin-bottom:30px;
+
+
+    box-shadow:
+
+    0 5px 15px rgba(0,0,0,.08);
+
+
+}
+
+
+
+.weather-header h1{
+
+
+    color:#1976d2;
+
+
+}
+
+
+
+
+.weather-cards{
+
+
+    display:grid;
+
+
+    grid-template-columns:
+
+    repeat(3,1fr);
+
+
+    gap:25px;
+
+
+}
+
+
+
+@media(max-width:1000px){
+
+
+.weather-cards{
+
+
+    grid-template-columns:1fr;
+
+
+}
+
+
+}

@@ -1,0 +1,71 @@
+.loading{
+
+
+    width:70%;
+
+
+    height:100%;
+
+
+    display:flex;
+
+
+    flex-direction:column;
+
+
+    justify-content:center;
+
+
+    align-items:center;
+
+
+}
+
+
+
+.spinner{
+
+
+    width:50px;
+
+
+    height:50px;
+
+
+    border-radius:50%;
+
+
+    border:5px solid #ddd;
+
+
+    border-top:5px solid #1976d2;
+
+
+    animation:
+
+    spin 1s linear infinite;
+
+
+}
+
+
+
+
+@keyframes spin{
+
+
+    from{
+
+        transform:rotate(0deg);
+
+    }
+
+
+    to{
+
+        transform:rotate(360deg);
+
+    }
+
+
+}

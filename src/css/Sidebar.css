@@ -1,0 +1,29 @@
+.sidebar{
+
+
+    width:30%;
+
+
+    background:#f8fbff;
+
+
+    padding:20px;
+
+
+    border-right:1px solid #ddd;
+
+
+    overflow-y:auto;
+
+
+}
+
+
+
+.sidebar h2{
+
+
+    margin-bottom:20px;
+
+
+}

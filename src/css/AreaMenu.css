@@ -1,0 +1,92 @@
+.area{
+
+
+    margin-bottom:10px;
+
+
+}
+
+
+
+.area-button{
+
+
+    width:100%;
+
+
+    padding:12px;
+
+
+    background:#1976d2;
+
+
+    color:white;
+
+
+    border:none;
+
+
+    border-radius:8px;
+
+
+    font-size:18px;
+
+
+    cursor:pointer;
+
+
+    text-align:left;
+
+
+}
+
+
+
+
+.city-list{
+
+
+    padding-left:20px;
+
+
+}
+
+
+
+.city{
+
+
+    padding:10px;
+
+
+    cursor:pointer;
+
+
+    border-radius:6px;
+
+
+}
+
+
+
+.city:hover{
+
+
+    background:#dceeff;
+
+
+}
+
+
+
+
+.city.active{
+
+
+    background:#42a5f5;
+
+
+    color:white;
+
+
+}
